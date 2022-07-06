@@ -18,6 +18,19 @@ ul {
     gap: 20px;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -44,6 +57,9 @@ footer {
     display: flex;
     flex: 0 1 400px;
     flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .content {
