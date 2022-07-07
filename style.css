@@ -85,6 +85,7 @@ footer {
 .info-header {
     display: flex;
     justify-content: center;
+    font-weight: 900;
 }
 
 .info-items {
