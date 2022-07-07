@@ -50,6 +50,12 @@ figcaption {
     font-weight: 600;
 }
 
+h3 {
+    font-weight: 900;
+    margin-bottom: 0;
+    padding: 0;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -118,8 +124,18 @@ footer {
 }
 
 .action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3882f6;
     color: #f9faf8;
+    margin: 60px;
 }
+
+.action-button {
+    border: solid 1.5px #fff
+}
+
+
 
 
