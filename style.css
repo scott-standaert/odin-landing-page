@@ -5,7 +5,6 @@
 body {
     background: #1F2937;
     font-family: Roboto, sans-serif;
-    margin: 20px 0px 20px 0px;
 }
 
 a {
@@ -31,6 +30,9 @@ button {
     color: #E5E7EB;
     font-weight: bolder;
     border-radius: 5px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
 }
 
 footer {
@@ -78,6 +80,15 @@ footer {
 
 .content {
     background-color: #fff;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+}
+
+.info-items {
+    display: flex;
 }
 
 .quote {
