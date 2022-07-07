@@ -29,7 +29,6 @@ button {
     background-color: #3882f6;
     color: #E5E7EB;
     font-weight: bolder;
-    border-radius: 5px;
     border-radius: 10px;
     width: 150px;
     height: 30px;
@@ -60,6 +59,7 @@ footer {
     display: flex;
     justify-content: center;
     color: #E5E7EB;
+    margin: 20px;
 }
 
 .nav-bar {
@@ -131,6 +131,7 @@ footer {
     align-items: center;
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 5px;
     margin: 60px;
 }
 
