@@ -113,6 +113,14 @@ footer {
 
 .info-items {
     display: flex;
+    align-items: center;
+}
+
+.info-image {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height:  100px;
+    width: 100px;
 }
 
 .quote {
