@@ -35,6 +35,17 @@ button {
     height: 30px;
 }
 
+blockquote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    font-size: 25px;
+    font-weight: 600;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -101,6 +112,7 @@ footer {
 
 .action {
     background-color: #3882f6;
+    color: #f9faf8;
 }
 
 
