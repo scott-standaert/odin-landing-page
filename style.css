@@ -5,6 +5,7 @@
 body {
     background: #1F2937;
     font-family: Roboto, sans-serif;
+    margin: 20px 0px 20px 0px;
 }
 
 a {
@@ -22,6 +23,7 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 0;
 }
 
 button {
@@ -41,6 +43,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 48px;
 }
 
 .logo {
@@ -51,15 +54,26 @@ footer {
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px;
 }
 
 .hero-text {
     display: flex;
     flex: 0 1 400px;
     flex-direction: column;
-    flex-wrap: wrap;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 400px;
+    height: 200px;
 }
 
 .content {
